@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  background-color: lightblue;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+#data {
+  background-color: white;
+  width: max-content;
+  align-items: center;
+}
+
+#names {
+  background-color: white;
+  padding: 5px 15px;
+}
+
+#names:hover {
+  background-color: aqua;
+}
